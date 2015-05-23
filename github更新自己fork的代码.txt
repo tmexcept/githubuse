@@ -4,10 +4,10 @@
 
 2、clone 自己的fork分支到本地，可以直接使用github客户端，clone到本地，如果使用命令行，命令为：
 
-   git clone git@github.com:break123/three.js.git three.js
+   git clone git@github.com:tmexcept/ToggleButton.git ToggleButton
 3、增加源分支地址到你项目远程分支列表中(此处是关键)【可以使用git remote -v查看远程分支列表，确定是否需要重复创建分支】，命令为：
 
-   git remote add mrdoob git://github.com/mrdoob/three.js.git
+   git remote add mrdoob git://github.com/tmexcept/ToggleButton.git
 
 4、fetch源分支的新版本到本地
 
