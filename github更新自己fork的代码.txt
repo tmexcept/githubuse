@@ -12,9 +12,15 @@
 4、fetch源分支的新版本到本地
 
    [master]> git fetch mrdoob
+
+【注意】mrdoob 是创建分支时命名的，如果使用已经存在的远程分支，则应该使用远程分支的名字
+[picture][1]
+
 5、合并两个版本的代码
 
    [master]> git merge mrdoob/master
 6、将合并后的代码push到github上去
 
    [master]> git push origin master
+
+[1]: https://github.com/tmexcept/githubuse/blob/master/QQ图片20150523180748.png
